@@ -77,8 +77,7 @@ fun MessageCard(message:Message){
                 Text(text = message.body,
                     modifier = Modifier.padding(all = 4.dp),
                     style = MaterialTheme.typography.bodyMedium,
-                    maxLines = if (isExpended) Int.MAX_VALUE else 1
-                    )
+                    maxLines = if (isExpended) Int.MAX_VALUE else 1)
             }
 
         } 
